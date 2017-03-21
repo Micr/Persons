@@ -1,0 +1,49 @@
+.home-header {
+  text-align: center;
+}
+.add-user {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate(0, 0, 0);
+}
+.navigation {
+  list-style: none;
+  text-align: center;
+}
+.navigation li {
+  display: inline-block;
+}
+.modal-container {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.modal {
+  padding: 10px;
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+.modal label {
+  display: block;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+table td, table th {
+  border-bottom: 1px solid black;
+  width: 33%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
